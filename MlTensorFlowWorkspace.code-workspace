@@ -7,7 +7,6 @@
 	"settings": {
 		"workbench.colorCustomizations": {
 			"statusBar.background": "#ffae42",
-			"statusBar.border": "#ffae42",
 			"statusBar.foreground": "#15202b",
 			"statusBarItem.hoverBackground": "#ff980f",
 			"tab.activeBorder": "#ffc475"

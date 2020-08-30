@@ -22,7 +22,10 @@ M2 = N * M
 NN = tf.matmul(N,N)
 
 #create a TF session 
-sess = tf.Sesion()
+#sess = tf.Sesion()
+#compatibility v1 for that command
+tf.compat.v1.Session() 
+
 
 output = sess.run(NN)
 

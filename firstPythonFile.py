@@ -22,4 +22,9 @@ M2 = N * M
 NN = tf.matmul(N,N)
 
 #create a TF session 
-sess = tf.Session()
+sess = tf.Sesion()
+
+output = sess.run(NN)
+
+print('NN is: ' )
+print(NN)

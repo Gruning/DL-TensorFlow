@@ -24,7 +24,8 @@ NN = tf.matmul(N,N)
 #create a TF session 
 #sess = tf.Sesion()
 #compatibility v1 for that command
-tf.compat.v1.Session() 
+##tf.compat.v1.Session()
+sess = tf.compat.v1.Session() 
 
 
 output = sess.run(NN)
